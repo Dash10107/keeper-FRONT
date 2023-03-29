@@ -13,7 +13,7 @@ import EditModal from "./components/EditModal";
 const App = () => {
   const [notes, setNotes] = useState([]);
   const [showModal, setShowModal] = useState(0);
-  const URL = "http://localhost:4000";
+  const URL = "https://keeper-backend-production.up.railway.app";
 
   const getModal = (id) => {
     setShowModal(id);
